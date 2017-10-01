@@ -5,6 +5,9 @@
 	<meta charset = "UTF-8">
 </head>
 <body>
+	<div style="text-align:center">
+		<button onclick = "login()" >Login</button>
+	</div>
 	
 </body>
 </html>
@@ -12,6 +15,11 @@
 
 <script type="text/javascript">
 	function login(){
-		alert("Please Login");
+		var usr = prompt("Username:")
+		var pwd = prompt("Password:")
+
+		if(usr == "kevin" && pwd == "nguyen") {
+			window.location.href = 'main.html';
+		}
 	}
 </script>
