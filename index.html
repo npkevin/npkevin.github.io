@@ -6,7 +6,7 @@
 </head>
 <body>
 	<div style="text-align:center">
-		<button onclick = "login()" >Login</button>
+		<button onclick = "login()" >Enter</button>
 	</div>
 	
 </body>
@@ -15,11 +15,13 @@
 
 <script type="text/javascript">
 	function login(){
-		var usr = prompt("Username: Kevin")
-		var pwd = prompt("Password: Nguyen")
+		var pwd = prompt("Password: LabX, where x is lab number (Lab2)")
 
-		if(usr == "kevin" && pwd == "nguyen") {
-			window.location.href = 'main.html';
+		if (pwd == "Lab1") {
+			window.location.href = 'lab1.html';
+		} else if (pwd == "Lab2") {
+			window.location.href = 'lab2.html';
 		}
+		
 	}
 </script>
