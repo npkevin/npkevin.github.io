@@ -1,0 +1,10 @@
+p.fullname{
+	font-family: 'Work Sans', sans-serif;
+	font-size: 72px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+body {
+	background-color: rgb(238, 238, 238);
+}
